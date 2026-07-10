@@ -73,6 +73,7 @@ prependGroupName: false
         }
     },
     nodeTransformPresets: [],
+    regionOverrides: [],
     // 公告设置
     announcement: {
         enabled: true,            // 是否启用公告
@@ -103,6 +104,15 @@ prependGroupName: false
         lastBackupStatus: null,
         lastBackupMessage: '',
         lastBackupFile: ''
+    },
+    externalApi: {
+        enabled: false,
+        tokens: [
+            {
+                name: 'default',
+                token: ''
+            }
+        ]
     },
     // 订阅转换设置
     subconverter: {
